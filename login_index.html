@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- 폰트어썸 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/login_style.css">
+  <link rel="stylesheet" href="css/login_media.css">
+</head>
+<body>
+  <!-- header -->
+  <header>
+    <a href="index.html" class="logo">
+      <img src="images/logo.png" alt="">
+    </a>
+    <nav class="main_menu">
+      <ul>
+        <li class="menu_nav" data-target="Residency">입주정보</li>
+        <li class="menu_nav" data-target="Support">고객광장</li>
+        <li class="menu_nav" data-target="Business">사업분야</li>
+        <li class="menu_nav" data-target="Disclosure">정보공개</li>
+        <li class="menu_nav" data-target="About">공단소개</li>
+      </ul>    
+    </nav>
+    <div class="main_icons">
+      <div class="number">
+        <p>콜센터 1670-2727 </p>
+      </div>
+      <div class="lang">
+        <a href="#none" class="lang_icon">
+          <i class="fa-solid fa-globe"></i>
+          <i class="fa-solid fa-sort-down"></i> <!-- 초기에는 fa-sort-down 숨김 -->
+        </a>
+      </div>
+      <div class="ham">
+        <a href="#none">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+  <div class="lang_list">
+    <ul>
+      <li><a href="#none">한국어</a></li>
+      <li><a href="#none">English</a></li>
+      <li><a href="#none">日本語</a></li>
+    </ul>
+  </div>
+  <div class="sub_wrap">
+    <div class="sub_menu" id="Residency">
+      <div class="sub_after1"></div>
+      <div class="sub_after2"></div>
+      <div class="submenu_content">
+        <div>
+          <img src="images/nav_img1.png" alt="" class="nav_img">
+        </div>
+        <div class="Residency">
+          <div>
+            <h3>입주에서 퇴거까지</h3>
+          </div>
+          <div>
+            <h3>예비입주자모집</h3>
+            <ul>
+              <li><a href="#none">예비입주자 모집안내</a></li>
+            </ul>
+          </div>        
+          <div>
+            <h3>예비입주자조회</h3>
+            <ul>
+              <li><a href="#none"> LH 예비입주자 조회</a></li>
+              <li><a href="#none"> 외 예비입주자 조회</a></li>
+            </ul>
+          </div>        
+          <div>
+            <h3>임대상가 모집공고</h3>
+          </div>        
+          <div>
+            <h3>수납내역조회</h3>
+          </div>        
+          <div>
+            <h3>관리비고지내역조회</h3>
+          </div>        
+        </div> <!-- .Residency -->
+      </div> <!-- .submenu_content -->
+    </div> <!-- .sub_menu -->
+    <div class="sub_menu" id="Support">
+      <div class="sub_after1"></div>
+      <div class="sub_after2"></div>
+      <div class="submenu_content">
+        <div>
+          <img src="images/nav_img2.png" alt="" class="nav_img">
+        </div>
+        <div class="Support">
+          <div>
+            <h3>공단 새소식</h3>
+          </div>
+          <div>
+            <h3>민원</h3>
+            <ul>
+              <li><a href="#none">민원소식</a></li>
+              <li><a href="#none">부조리 신고</a></li>
+              <li><a href="#none">갑질피해신고</a></li>
+              <li><a href="#none">내부공익신고</a></li>
+              <li><a href="#none">부정입주신고센터</a></li>
+              <li><a href="#none">인사 및 채용비리 신고</a></li>
+            </ul>
+          </div>        
+          <div>
+            <h3>자주하는 질문</h3>
+            <ul>
+              <li><a href="#none">질의응담</a></li>
+              <li><a href="#none">고객의견</a></li>
+              <li><a href="#none">칭찬합시다</a></li>
+            </ul>
+          </div>        
+          <div>
+            <h3>입찰정보</h3>
+          </div>        
+          <div>
+            <h3>갑질실태 인식도 설문</h3>
+          </div>        
+          <div>
+            <h3>고객서비스헌장</h3>
+          </div>        
+          <div>
+            <h3>아디이어 공모</h3>
+          </div>        
+        </div> <!-- .Support -->
+      </div> <!-- .submenu_content -->
+    </div> <!-- .sub_menu -->
+    <div class="sub_menu" id="Business">
+      <div class="sub_after1"></div>
+      <div class="sub_after2"></div>
+      <div class="submenu_content">
+        <div>
+          <img src="images/nav_img3.png" alt="" class="nav_img">
+        </div>
+        <div class="Business">
+          <div>
+            <h3>주거복지</h3>
+            <ul>
+              <li><a href="#none">주거복지소개</a></li>
+              <li><a href="#none">주거복지</a></li>
+              <li><a href="#none">추진현황</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>임대운영</h3>
+            <ul>
+              <li><a href="#none">임대주택 공급유형</a></li>
+              <li><a href="#none">입주자격 및 신청</a></li>
+            </ul>
+          </div>        
+          <div>
+            <h3>주택관리</h3>
+            <ul>
+              <li><a href="#none">임대주택 관리업무</a></li>
+              <li><a href="#none">임대주택 관리현황</a></li>
+              <li><a href="#none">임차인 필수사항</a></li>
+            </ul>
+          </div>        
+          <div>
+            <h3>시설관리</h3>
+            <ul>
+              <li><a href="#none">시설물 개요</a></li>
+              <li><a href="#none">시설물 현황</a></li>
+              <li><a href="#none">관련기관안내</a></li>
+            </ul>
+          </div>        
+          <div>
+            <h3>공공사업</h3>
+            <ul>
+              <li><a href="#none">사업소개</a></li>
+            </ul>
+          </div>        
+          <div>
+            <h3>유지보수/점검사업</h3>
+            <ul>
+              <li><a href="#none">사업소개</a></li>
+              <li><a href="#none">하자만료 점검</a></li>
+              <li><a href="#none">안전점검</a></li>
+              <li><a href="#none">건설사업관리</a></li>
+            </ul>
+          </div>               
+        </div> <!-- .Business -->
+      </div> <!-- .submenu_content -->
+    </div> <!-- .sub_menu -->
+    <div class="sub_menu" id="Disclosure">
+      <div class="sub_after1"></div>
+      <div class="sub_after2"></div>
+      <div class="submenu_content">
+        <div>
+          <img src="images/nav_img4.png" alt="" class="nav_img">
+        </div>
+        <div class="Disclosure">
+          <div>
+            <h3>제도안내</h3>
+            <ul>
+              <li><a href="#none">정보공개청구</a></li>
+              <li><a href="#none">주거복지</a></li>
+              <li><a href="#none">정보목록</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>사전정보공개</h3>
+            <ul>
+              <li><a href="#none">사전공표목록</a></li>
+              <li><a href="#none">비공개세부기준</a></li>
+            </ul>
+          </div>        
+          <div>
+            <h3>공공데이터개방</h3>
+            <ul>
+              <li><a href="#none">공공테이터개방</a></li>
+              <li><a href="#none">개방및활용</a></li>
+              <li><a href="#none">설문조사</a></li>
+              <li><a href="#none">아이디어 제안</a></li>
+              <li><a href="#none">ESG</a></li>
+            </ul>
+          </div>        
+          <div>
+            <h3>경영공시</h3>
+            <ul>
+              <li><a href="#none">경영현황</a></li>
+              <li><a href="#none">경영공시</a></li>
+              <li><a href="#none">임원 업무추진비</a></li>
+              <li><a href="#none">이사회 회의록</a></li>
+              <li><a href="#none">공지사항</a></li>
+            </ul>
+          </div>        
+          <div>
+            <h3>결산공고</h3>
+          </div>        
+          <div>
+            <h3>사업실명제</h3>
+          </div>               
+        </div> <!-- .Disclosure -->
+      </div> <!-- .submenu_content -->
+    </div> <!-- .sub_menu -->
+    <div class="sub_menu" id="About">
+      <div class="sub_after1"></div>
+      <div class="sub_after2"></div>
+      <div class="submenu_content">
+        <div>
+          <img src="images/nav_img5.png" alt="" class="nav_img">
+        </div>
+        <div class="About">
+          <div>
+            <h3>인사말</h3>
+            <ul>
+              <li><a href="#none">설립목적 및 연혁</a></li>
+              <li><a href="#none">공단 CI</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>조직구성</h3>
+            <ul>
+              <li><a href="#none">조직구성</a></li>
+              <li><a href="#none">직원검색</a></li>
+            </ul>
+          </div>        
+          <div>
+            <h3>경영이념</h3>
+            <ul>
+              <li><a href="#none">중장기 경영전략</a></li>
+            </ul>
+          </div>        
+          <div>
+            <h3>홍보</h3>
+            <ul>
+              <li><a href="sub_index.html">홍보마당</a></li>
+              <li><a href="#none">언론홍보자료</a></li>
+              <li><a href="#none">코홈 이모저모</a></li>
+              <li><a href="#none">사회적기업</a></li>
+              <li><a href="#none">홍보대사인사말</a></li>
+              <li><a href="#none">우리마을 이야기</a></li>
+            </ul>
+          </div>        
+          <div>
+            <h3>공단위치</h3>
+          </div>        
+          <div>
+            <h3>인재채용</h3>
+            <ul>
+              <li><a href="#none">수시채용</a></li>
+              <li><a href="#none">정기채용</a></li>
+              <li><a href="#none">채용관련 Q&A</a></li>
+            </ul>
+          </div>               
+        </div> <!-- .About -->
+      </div> <!-- .submenu_content -->
+    </div> <!-- .sub_menu -->
+  </div> <!-- .sub_wrap  -->
+  <div class="accordion" id="accordion_menu">
+    <div class="accordion_item">
+      <div class="accordion_title">입주정보</div>
+      <div class="accordion_content">
+        <ul>
+          <li>입주에서 퇴거까지</li>
+          <li>예비입주자모집</li>
+          <li>예비입주자조회</li>
+          <li>임대상가 모집공고</li>
+          <li>수납내역조회</li>
+          <li>관리비고지내역조회</li>
+        </ul>
+      </div>
+    </div>
+    <div class="accordion_item">
+      <div class="accordion_title">고객광장</div>
+      <div class="accordion_content">
+        <ul>
+          <li>공단 새소식</li>
+          <li>민원</li>
+          <li>하주하는질문</li>
+          <li>입찰정보</li>
+          <li>갑질실태 인식도 설문</li>
+          <li>고객서비스헌장</li>
+          <li>아이디어 공모</li>
+        </ul>
+      </div>
+    </div>
+    <div class="accordion_item">
+      <div class="accordion_title">사업분야</div>
+      <div class="accordion_content">
+        <ul>
+          <li>주거복지</li>
+          <li>임대운영</li>
+          <li>주택관리</li>
+          <li>시설관리</li>
+          <li>공공사업</li>
+          <li>유지보수/점검사업</li>
+        </ul>
+      </div>
+    </div>
+    <div class="accordion_item">
+      <div class="accordion_title">정보공개</div>
+      <div class="accordion_content">
+        <ul>
+          <li>제도안내</li>
+          <li>사전정보공개</li>
+          <li>공공데이터개방</li>
+          <li>경영공시</li>
+          <li>결산공고</li>
+          <li>사업실명제</li>
+        </ul>
+      </div>
+    </div>
+    <div class="accordion_item">
+      <div class="accordion_title">공단소개</div>
+      <div class="accordion_content">
+        <ul>
+          <li>인사말</li>
+          <li>조직구성</li>
+          <li>경영이념</li>
+          <li>홍보</li>
+          <li>공단위치</li>
+          <li>인재채용</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+<header class="banner">
+</header>
+  <!-- login -->
+  <main class="login">
+    <div class="login_inner">
+      <h2 class="title">로그인</h2>
+      <div class="login_box">
+        <div class="CertLogin">
+          <h2>인증서 로그인</h2>
+          <div class="CertLogin_card">
+            <div class="login_card">
+              <img src="images/free-icon-public-key-certificate-11094254.png" alt="">
+              <p>공동 인증서</p>
+            </div>
+            <div class="login_card">
+              <img src="images/free-icon-ssl-certificate-11743801.png" alt="">
+              <p>금융 인증서</p>
+            </div>
+          </div>
+          <h2>사설 인증서</h2>
+          <div class="CertLogin_box">
+            <img src="images/kakao.png" alt="">
+            <img src="images/toss.png" alt="">
+            <img src="images/naver.png" alt="">
+          </div>
+          <p class="required">- 인증서 로그인을 위해서는 아이디와 비밀번호로 접속하신 후 최종 1회 인증서 등록이 필요합니다.</p>
+        </div>
+        <div class="SimpleLogin">
+          <h2>로그인</h2>
+          <input type="text" placeholder="아이디 입력"><br>
+          <input type="password" placeholder="비밀번호입력"><br>
+          <a href="#none"><i class="fa-solid fa-check"></i>마우스 입력</a>
+          <div class="login_btn">
+            <button class="btn1">로그인</button><br>
+            <button class="btn2">회원가입</button>
+          </div>
+          <div class="login_btn_a">
+            <a href="#none">아이디/비밀번호 찾기 <i class="fa-solid fa-chevron-right"></i></a>
+            <a href="#none">회원번호 찾기 <i class="fa-solid fa-chevron-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <p class="result">주택관리공단은 사용자의 개인정보보호를 위해 사용자 여러분이 서비스 이용함에 있어 온라인상에서 주택금융공단에서 제공한 개인정보가 보호 받을 수 있도록 최선을 다하고 있습니다. <br> 귀하의 정보는 동의 없이 공개되지 않으며, 개인정보보호정책에 의해 보고받고 있습니다.</p>
+    </div>
+    <div class="TermsOfService">
+      <a href="#none">이용약관</a>
+      <a href="#none">개인정보처리방침</a>
+      <a href="#none">문화포털이용안내</a>
+    </div>
+  </main>
+  <!-- footer -->
+<footer class="footer">
+  <div class="footer_inner">
+      <div class="footer_link">
+          <a href="#none">개인정보처리방침<i class="fa-solid fa-up-right-from-square icon"></i></a>
+          <a href="#none">영상정보처리기기 설치운영<i class="fa-solid fa-up-right-from-square icon"></i></a>
+          <a href="#none">이메일주소 무단수집거부<i class="fa-solid fa-up-right-from-square icon"></i></a>
+          <a href="#none">전현직 임직원 전용<i class="fa-solid fa-up-right-from-square icon"></i></a>
+      </div>
+      <div class="site">
+          <select name="" id="site_select" title="관련기관을 선택해주세요.">
+              <option>관련 사이트</option>
+              <option>국토교통부</option>
+              <option>한국토지주택공사</option>
+              <option>대한민국국회</option>
+              <option>법제처</option>
+              <option>보건복지부</option>
+          </select>
+      </div>
+      <div class="footer_main">
+          <div class="footer_logo">
+              <img src="images/logo_fff.png" alt="">
+          </div>
+          <div class="footer_result">
+              <p>경상남도 진주시 사들로 137 대표 : 허종길 <i></i> TEL : 1670-2727 <br> COPYRIGHT(C) KOREA HOREA HOUSING MANAGEMENT CO_LTD. <br>ALL RIGHTS RESERVED. MAIL TO WEVMASTER</p>
+          </div>
+          <div class="footer_number">
+              <h3>1670-2727</h3>
+              <p>상담시간 : 09:00 ~ 18:00 <br>(토, 일 공휴일 제외)</p>
+          </div>
+      </div>
+  </div>
+</footer>
+<script src="js/login.js"></script>
+</body>
+</html>

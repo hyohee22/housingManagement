@@ -1,0 +1,121 @@
+@media (max-width: 768px){
+
+  /* header */
+  .main_menu, .number, .lang_icon{display: none;}
+  .logo{margin-left: 0;}
+
+  /* accordion */
+  .accordion{
+    width: 100%;
+    border: 1px solid var(--main_Bu);
+  }
+  .accordion_item{border-bottom: 1px solid rgb(255, 255, 255);}
+  .accordion_title{padding: 1rem; font-size: 18px; background-color: var(--main_Bu); cursor: pointer; color: #fff; text-align: center;}
+  .accordion_content{display: none; background-color: var(--main_LBu);}
+  .accordion_content.active{display: block;}
+  .menu_icon i{font-size: 30px; background-color: #97d7f5; padding: 0.3rem; color: #fff;}
+  .accordion_content ul li{
+    padding: 0.8rem; border-bottom: 1px solid rgb(195, 196, 255); cursor: pointer; text-align: center;
+  }
+  .accordion_content ul li:hover{
+    color: var(--main_Bu); font-weight: bold;
+  }
+
+  /* banner */
+  .banner{
+    width: 100%; height: 150px;
+  }
+
+  /* main */
+  .title_inner{
+    width: 80%;
+  }
+  .titles{
+    margin-bottom: 30px;
+  }
+  .title h2{
+    font-size: 28px;
+  }
+  .title_menu a, .title_menu a i{
+    font-size: 15px;
+  }
+
+  .hongbo a{
+    width: 100%;
+  }
+  .hongbo3 .btn > select{display: none;}
+  .select_butoon{display: none;}
+  .page p, .page p span{
+    display: none;
+  }
+  .table_inner{
+    width: 80%;
+    font-size: 15px;
+  }
+  th{
+    padding: 0.6rem;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  td{
+    max-width: 100px;
+    padding: 0.5rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+  }
+  /* 만족도조사 */
+  .Feedback{width: 100%;}
+  .feedback_inner{
+    width: 70%; height: 300px;
+    margin: auto;
+  }
+  .feedback_inner h2{
+    font-size: 1rem;
+    line-height: 25px;
+  }
+  .feedback_inner label{
+    margin-right: 8px;
+    font-size: 1rem;
+    line-height: 30px;
+  }
+  .feedback_inner input[type='text']{
+    width: 60%; height: 25px;
+    font-size: 1rem;
+  }
+  .feedback_inner button{
+    margin-left: 10px;
+    padding: 7.8px 10px;
+  }
+  .feedback_p{
+    flex-direction: column;
+    font-size: 0.8rem;
+    line-height: 30px;
+  }
+    /* footer */
+    .footer{
+      width: 100%;
+      height: 530px;
+      margin-top: 100px;
+    }
+    .footer_inner{
+      width: 80%;
+    }
+    .footer_link a{
+      font-size: 10px;
+    }
+    .footer_main{
+      flex-wrap: wrap;
+    }
+    .footer_result{
+      line-height: 20px;
+      color: #fff;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+    .footer_number p{
+      font-size: 13px;
+      line-height: 20px;
+    }
+}

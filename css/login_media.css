@@ -1,0 +1,79 @@
+@media (max-width: 768px){
+
+  /* header */
+  .main_menu, .number, .lang_icon{display: none;}
+  .logo{margin-left: 0;}
+
+  /* accordion */
+  .accordion{
+    width: 100%;
+    border: 1px solid var(--main_Bu);
+  }
+  .accordion_item{border-bottom: 1px solid rgb(255, 255, 255);}
+  .accordion_title{padding: 1rem; font-size: 18px; background-color: var(--main_Bu); cursor: pointer; color: #fff; text-align: center;}
+  .accordion_content{display: none; background-color: var(--main_LBu);}
+  .accordion_content.active{display: block;}
+  .menu_icon i{font-size: 30px; background-color: #97d7f5; padding: 0.3rem; color: #fff;}
+  .accordion_content ul li{
+    padding: 0.8rem; border-bottom: 1px solid rgb(195, 196, 255); cursor: pointer; text-align: center;
+  }
+  .accordion_content ul li:hover{
+    color: var(--main_Bu); font-weight: bold;
+  }
+
+  /* login */
+.login_inner{width: 80%; margin-top: 30px;}
+.login_inner .title{font-size: 30px;}
+.login_inner .login_box{
+  flex-direction: column;
+  justify-content: center;
+}
+.CertLogin{
+  margin-top: 20px; padding: 10px;
+  width: 80%; order: 2;
+}
+.CertLogin::after{display: none;}
+.CertLogin h2{font-size: 23px;}
+.CertLogin_card{gap: 20px;}
+.login_card{height: 130px;}
+.login_card img{width: 30%; margin-top: 22px;}
+.login_card p{font-size: 1rem;}
+.CertLogin_box{width: 80%;}
+.CertLogin_box img{width: 15%;}
+.required{width: 100%; font-size: 0.8rem; margin-bottom: 40px;}
+.SimpleLogin{width: 80%; padding: 10px; order: 1;}
+.SimpleLogin h2{font-size: 23px;}
+.SimpleLogin input{width: 95%; font-size: 1rem;}
+.login_btn button{width: 100%;}
+.login_btn_a{font-size: 0.79rem;}
+.result{
+  text-align: left; font-size: 0.6rem;
+  margin-top: 30px;
+}
+  /* footer */
+  .footer{
+    width: 100%;
+    height: 530px;
+  }
+  .footer_inner{
+    width: 80%;
+  }
+  .footer_link a{
+    font-size: 10px;
+  }
+  .footer_main{
+    flex-wrap: wrap;
+  }
+  .footer_result{
+    line-height: 20px;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .footer_number p{
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+
+}

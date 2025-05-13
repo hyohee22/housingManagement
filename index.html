@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주택관리공단</title>
+    <!-- reset -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- swiper.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- AOS.css -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />  
+    <link rel="icon" href="images/mainIcon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 추가작업 -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <i class="bi bi-hand-index" id="icon01"></i>
+  <!-- header -->
+    <header>
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" alt="">
+        </a>
+        <nav class="main_menu">
+          <ul>
+            <li class="menu_nav" data-target="Residency">입주정보</li>
+            <li class="menu_nav" data-target="Support">고객광장</li>
+            <li class="menu_nav" data-target="Business">사업분야</li>
+            <li class="menu_nav" data-target="Disclosure">정보공개</li>
+            <li class="menu_nav" data-target="About">공단소개</li>
+          </ul>
+        </nav>
+        <div class="main_icons">
+          <div class="number">
+            <p>콜센터 1670-2727 </p>
+          </div>
+          <div class="lang">
+            <a href="#none" class="lang_icon">
+              <i class="fa-solid fa-globe"></i>
+              <i class="fa-solid fa-sort-down"></i> <!-- 초기에는 fa-sort-down 숨김 -->
+            </a>
+          </div>
+          <div class="ham">
+            <a href="#none">
+              <i class="fa-solid fa-bars"></i>
+            </a>
+          </div>
+        </div>
+      </header>
+      <div class="lang_list">
+        <ul>
+          <li><a href="#none">한국어</a></li>
+          <li><a href="#none">English</a></li>
+          <li><a href="#none">日本語</a></li>
+        </ul>
+      </div>
+      <div class="sub_wrap">
+        <div class="sub_menu" id="Residency">
+          <div class="sub_after1"></div>
+          <div class="sub_after2"></div>
+          <div class="submenu_content">
+            <div>
+              <img src="images/nav_img1.png" alt="" class="nav_img">
+            </div>
+            <div class="Residency">
+              <div>
+                <h3>입주에서 퇴거까지</h3>
+              </div>
+              <div>
+                <h3>예비입주자모집</h3>
+                <ul>
+                  <li><a href="#none">예비입주자 모집안내</a></li>
+                </ul>
+              </div>        
+              <div>
+                <h3>예비입주자조회</h3>
+                <ul>
+                  <li><a href="#none"> LH 예비입주자 조회</a></li>
+                  <li><a href="#none"> 외 예비입주자 조회</a></li>
+                </ul>
+              </div>        
+              <div>
+                <h3>임대상가 모집공고</h3>
+              </div>        
+              <div>
+                <h3>수납내역조회</h3>
+              </div>        
+              <div>
+                <h3>관리비고지내역조회</h3>
+              </div>        
+            </div> <!-- .Residency -->
+          </div> <!-- .submenu_content -->
+        </div> <!-- .sub_menu -->
+        <div class="sub_menu" id="Support">
+          <div class="sub_after1"></div>
+          <div class="sub_after2"></div>
+          <div class="submenu_content">
+            <div>
+              <img src="images/nav_img2.png" alt="" class="nav_img">
+            </div>
+            <div class="Support">
+              <div>
+                <h3>공단 새소식</h3>
+              </div>
+              <div>
+                <h3>민원</h3>
+                <ul>
+                  <li><a href="#none">민원소식</a></li>
+                  <li><a href="#none">부조리 신고</a></li>
+                  <li><a href="#none">갑질피해신고</a></li>
+                  <li><a href="#none">내부공익신고</a></li>
+                  <li><a href="#none">부정입주신고센터</a></li>
+                  <li><a href="#none">인사 및 채용비리 신고</a></li>
+                </ul>
+              </div>        
+              <div>
+                <h3>자주하는 질문</h3>
+                <ul>
+                  <li><a href="#none">질의응담</a></li>
+                  <li><a href="#none">고객의견</a></li>
+                  <li><a href="#none">칭찬합시다</a></li>
+                </ul>
+              </div>        
+              <div>
+                <h3>입찰정보</h3>
+              </div>        
+              <div>
+                <h3>갑질실태 인식도 설문</h3>
+              </div>        
+              <div>
+                <h3>고객서비스헌장</h3>
+              </div>        
+              <div>
+                <h3>아디이어 공모</h3>
+              </div>        
+            </div> <!-- .Support -->
+          </div> <!-- .submenu_content -->
+        </div> <!-- .sub_menu -->
+        <div class="sub_menu" id="Business">
+          <div class="sub_after1"></div>
+          <div class="sub_after2"></div>
+          <div class="submenu_content">
+            <div>
+              <img src="images/nav_img3.png" alt="" class="nav_img">
+            </div>
+            <div class="Business">
+              <div>
+                <h3>주거복지</h3>
+                <ul>
+                  <li><a href="#none">주거복지소개</a></li>
+                  <li><a href="#none">주거복지</a></li>
+                  <li><a href="#none">추진현황</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3>임대운영</h3>
+                <ul>
+                  <li><a href="#none">임대주택 공급유형</a></li>
+                  <li><a href="#none">입주자격 및 신청</a></li>
+                </ul>
+              </div>        
+              <div>
+                <h3>주택관리</h3>
+                <ul>
+                  <li><a href="#none">임대주택 관리업무</a></li>
+                  <li><a href="#none">임대주택 관리현황</a></li>
+                  <li><a href="#none">임차인 필수사항</a></li>
+                </ul>
+              </div>        
+              <div>
+                <h3>시설관리</h3>
+                <ul>
+                  <li><a href="#none">시설물 개요</a></li>
+                  <li><a href="#none">시설물 현황</a></li>
+                  <li><a href="#none">관련기관안내</a></li>
+                </ul>
+              </div>        
+              <div>
+                <h3>공공사업</h3>
+                <ul>
+                  <li><a href="#none">사업소개</a></li>
+                </ul>
+              </div>        
+              <div>
+                <h3>유지보수/점검사업</h3>
+                <ul>
+                  <li><a href="#none">사업소개</a></li>
+                  <li><a href="#none">하자만료 점검</a></li>
+                  <li><a href="#none">안전점검</a></li>
+                  <li><a href="#none">건설사업관리</a></li>
+                </ul>
+              </div>               
+            </div> <!-- .Business -->
+          </div> <!-- .submenu_content -->
+        </div> <!-- .sub_menu -->
+        <div class="sub_menu" id="Disclosure">
+          <div class="sub_after1"></div>
+          <div class="sub_after2"></div>
+          <div class="submenu_content">
+            <div>
+              <img src="images/nav_img4.png" alt="" class="nav_img">
+            </div>
+            <div class="Disclosure">
+              <div>
+                <h3>제도안내</h3>
+                <ul>
+                  <li><a href="#none">정보공개청구</a></li>
+                  <li><a href="#none">주거복지</a></li>
+                  <li><a href="#none">정보목록</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3>사전정보공개</h3>
+                <ul>
+                  <li><a href="#none">사전공표목록</a></li>
+                  <li><a href="#none">비공개세부기준</a></li>
+                </ul>
+              </div>        
+              <div>
+                <h3>공공데이터개방</h3>
+                <ul>
+                  <li><a href="#none">공공테이터개방</a></li>
+                  <li><a href="#none">개방및활용</a></li>
+                  <li><a href="#none">설문조사</a></li>
+                  <li><a href="#none">아이디어 제안</a></li>
+                  <li><a href="#none">ESG</a></li>
+                </ul>
+              </div>        
+              <div>
+                <h3>경영공시</h3>
+                <ul>
+                  <li><a href="#none">경영현황</a></li>
+                  <li><a href="#none">경영공시</a></li>
+                  <li><a href="#none">임원 업무추진비</a></li>
+                  <li><a href="#none">이사회 회의록</a></li>
+                  <li><a href="#none">공지사항</a></li>
+                </ul>
+              </div>        
+              <div>
+                <h3>결산공고</h3>
+              </div>        
+              <div>
+                <h3>사업실명제</h3>
+              </div>               
+            </div> <!-- .Disclosure -->
+          </div> <!-- .submenu_content -->
+        </div> <!-- .sub_menu -->
+        <div class="sub_menu" id="About">
+          <div class="sub_after1"></div>
+          <div class="sub_after2"></div>
+          <div class="submenu_content">
+            <div>
+              <img src="images/nav_img5.png" alt="" class="nav_img">
+            </div>
+            <div class="About">
+              <div>
+                <h3>인사말</h3>
+                <ul>
+                  <li><a href="#none">설립목적 및 연혁</a></li>
+                  <li><a href="#none">공단 CI</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3>조직구성</h3>
+                <ul>
+                  <li><a href="#none">조직구성</a></li>
+                  <li><a href="#none">직원검색</a></li>
+                </ul>
+              </div>        
+              <div>
+                <h3>경영이념</h3>
+                <ul>
+                  <li><a href="#none">중장기 경영전략</a></li>
+                </ul>
+              </div>        
+              <div>
+                <h3>홍보</h3>
+                <ul>
+                  <li><a href="sub_index.html" class="here">홍보마당</a></li>
+                  <li><a href="#none">언론홍보자료</a></li>
+                  <li><a href="#none">코홈 이모저모</a></li>
+                  <li><a href="#none">사회적기업</a></li>
+                  <li><a href="#none">홍보대사인사말</a></li>
+                  <li><a href="#none">우리마을 이야기</a></li>
+                </ul>
+              </div>        
+              <div>
+                <h3>공단위치</h3>
+              </div>        
+              <div>
+                <h3>인재채용</h3>
+                <ul>
+                  <li><a href="#none">수시채용</a></li>
+                  <li><a href="#none">정기채용</a></li>
+                  <li><a href="#none">채용관련 Q&A</a></li>
+                </ul>
+              </div>               
+            </div> <!-- .About -->
+          </div> <!-- .submenu_content -->
+        </div> <!-- .sub_menu -->
+      </div> <!-- .sub_wrap  -->
+      <div class="accordion" id="accordion_menu">
+        <div class="accordion_item">
+          <div class="accordion_title">입주정보</div>
+          <div class="accordion_content">
+            <ul>
+              <li>입주에서 퇴거까지</li>
+              <li>예비입주자모집</li>
+              <li>예비입주자조회</li>
+              <li>임대상가 모집공고</li>
+              <li>수납내역조회</li>
+              <li>관리비고지내역조회</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion_item">
+          <div class="accordion_title">고객광장</div>
+          <div class="accordion_content">
+            <ul>
+              <li>공단 새소식</li>
+              <li>민원</li>
+              <li>하주하는질문</li>
+              <li>입찰정보</li>
+              <li>갑질실태 인식도 설문</li>
+              <li>고객서비스헌장</li>
+              <li>아이디어 공모</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion_item">
+          <div class="accordion_title">사업분야</div>
+          <div class="accordion_content">
+            <ul>
+              <li>주거복지</li>
+              <li>임대운영</li>
+              <li>주택관리</li>
+              <li>시설관리</li>
+              <li>공공사업</li>
+              <li>유지보수/점검사업</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion_item">
+          <div class="accordion_title">정보공개</div>
+          <div class="accordion_content">
+            <ul>
+              <li>제도안내</li>
+              <li>사전정보공개</li>
+              <li>공공데이터개방</li>
+              <li>경영공시</li>
+              <li>결산공고</li>
+              <li>사업실명제</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion_item">
+          <div class="accordion_title">공단소개</div>
+          <div class="accordion_content">
+            <ul>
+              <li>인사말</li>
+              <li>조직구성</li>
+              <li>경영이념</li>
+              <li>홍보</li>
+              <li>공단위치</li>
+              <li>인재채용</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+<!-- sidebar -->
+      <div class="sidebar">
+        <a href="#main" class="circle-link" data-section="section1">
+          <span class="section-name">MAIN</span>
+        </a>
+        <a href="#map" class="circle-link" data-section="section2">
+          <span class="section-name">MAP</span>
+        </a>
+        <a href="#bid" class="circle-link" data-section="section3">
+          <span class="section-name">NOTICE</span>
+        </a>
+        <a href="#esg" class="circle-link" data-section="section3">
+          <span class="section-name">ESG</span>
+        </a>
+      </div>
+
+<!-- main -->
+    <main id="main">
+      <i class="bi bi-hand-index" id="icon02"></i>
+        <div class="main_inner" data-aos="fade-up" data-aos-duration="4000">
+            <div class="search_group">
+                <div class="unify_search">
+                    <label>
+                        <input type="radio" name="search">통합검색
+                    </label>
+                    <label>
+                        <input type="radio" name="search">입주검색
+                    </label>
+                    <label>
+                        <input type="radio" name="search">공고검색
+                    </label>
+                </div>
+                <div class="search_wrap">
+                    <div class="search_wrap_inner">
+                        <div class="inner_search">
+                            <select>
+                                <option>전체</option>
+                                <option>통합검색</option>
+                                <option>입주검색</option>
+                                <option>공고검색</option>
+                            </select>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                        <div class="inner_input">
+                            <input type="text" placeholder="필요한 서비스를 찾아보세요">
+                        </div>
+                        <div class="inner_button">
+                            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="keyword">
+                    <a href="#none" class="keyword_title">자주 찾는 키워드</a>
+                    <ul>
+                        <li>
+                            <a href="#none">입주공고</a>
+                        </li>
+                        <li>
+                            <a href="#none">임대주택</a>
+                        </li>
+                        <li>
+                            <a href="#none">퇴거</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quick_menu">
+                <a href="#none" class="menu_card">
+                    <img src="images/subIcon1.png" alt="">
+                    <h3>입주에서 <br> 퇴거까지</h3>
+                </a>
+                <a href="#none" class="menu_card">
+                    <img src="images/subIcon2.png" alt="">
+                    <h3>예비입주자 <br> 조회</h3>
+                </a>
+                <a href="#none" class="menu_card">
+                    <img src="images/subIcon3.png" alt="">
+                    <h3>고지내역 <br> 조회</h3>
+                </a>
+                <a href="#none" class="menu_card">
+                    <img src="images/subIcon4.png" alt="">
+                    <h3>임대상가 <br> 모집공고</h3>
+                </a>
+                <a href="#none" class="menu_card">
+                    <img src="images/subIcon5.png" alt="">
+                    <h3>민원신청</h3>
+                </a>
+                <a href="#none" class="menu_card">
+                    <img src="images/subIcon6.png" alt="">
+                    <h3>부정입주 <br> 신고센터</h3>
+                </a>
+            </div>
+        </div>
+        <div class="main_bg">
+            <div class="img_wrap">
+                <img class="bg_img" src="images/main_bg.png" alt="">
+            </div>
+        </div>
+    </main>
+
+<!-- section_banner -->
+    <section class="banner">
+        <div class="bannrr_inner">
+            <div class="banner_text">
+                <h2>주택관리공단이란?</h2>
+                <p>주택관리공단은 국민들이 안전하고 쾌적한 주거 환경을  <br>제공받을 수 있도록
+                    다양한 주택 관련 서비스를 제공합니다.
+                </p>
+            </div>
+            <div class="banner_img">
+                <img src="images/banner_img.png" alt="">
+            </div>
+        </div>
+    </section>
+
+<!-- section_report -->
+    <section class="report">
+        <div class="report_inner">
+            <div class="popup_box">
+                <h3>알림</h3>
+                <div class="swiper_button popup-button-wrap">
+                    <div class="swiper-button-next popup-next"><img src="images/swiper_btn2.png" alt=""></div>
+                    <div class="swiper-button-prev popup-prev"><img src="images/swiper_btn1.png" alt=""></div>
+                    <div class="swiper-pagination popup-pagination"></div>
+                  </div>
+                <div class="swiper popup-swiper">
+                    <div class="swiper-wrapper popup-wrapper">
+                      <a class="swiper-slide popup-slide">
+                        <img src="images/popUp1_img.png" alt="">
+                      </a>
+                      <a class="swiper-slide popup-slide">
+                        <img src="images/popUp2_img.png" alt="">
+                      </a>
+                      <a class="swiper-slide popup-slide">
+                        <img src="images/popUp3_img.png" alt="">
+                      </a>
+                    </div>
+                  </div>
+            </div>
+            <div class="login_box">
+                <div class="service_info">
+                    <i class="fa-solid fa-headset"></i>
+                    <h2>1670-2727</h2>
+                    <p>상담시간 : 09:00 ~ 18:00
+                        <br>(토, 일 공휴일 제외)
+                    </p>
+                </div>
+                <div class="login">
+                    <p><strong>로그인</strong>하시면 아래의 서비스를 이용할 수 있어요</p>
+                    <ul>
+                        <li><a href="#none">
+                                <i class="fa-solid fa-bookmark"></i>내 신청 조회
+                            </a></li>
+                        <li><a href="#none">
+                                <i class="fa-solid fa-paste"></i>고지내역 조회
+                            </a></li>
+                        <li><a href="#none">
+                                <i class="fa-solid fa-hotel"></i>예비입주자 조회
+                            </a></li>
+                        <li><a href="#none">
+                                <i class="fa-solid fa-comment"></i>민원신청
+                            </a></li>
+                    </ul>
+                    <a href="login_index.html" class="login_Btn">로그인</a>
+                </div>
+                <div class="advice">
+                    <p>"우리마을이야기
+                        <a href="#none">누적건수 974건</a>"
+                    </p>
+                </div>
+            </div>
+            <div class="report_bg">
+              <img src="images/bgAni_img1.png" alt="">
+            </div>
+        </div>
+    </section>
+
+<!-- section_map -->
+    <div class="container-title">
+        <p>지사안내</p>
+        <h2>본부 및 지역본부 소개</h2>
+    </div>
+    <div id="map">
+        <section class="container">
+            <div class="branch-container">
+                <div class="branch-menu">
+                    <ul>
+                        <li data-branch="busan" class="active">부산울산지사</li>
+                        <li data-branch="incheon">인천지사</li>
+                        <li data-branch="gangwon">강원지사</li>
+                        <li data-branch="chungbuk">충북지사</li>
+                        <li data-branch="daejeon">대전충남지사</li>
+                        <li data-branch="jeonbuk">전북지사</li>
+                        <li data-branch="gwangju">광주전남지사</li>
+                        <li data-branch="head">본부</li>
+                    </ul>
+                </div>
+                <div class="branch-info">
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                    <h3 id="branch-name">부산울산지사</h3>
+                    <p id="branch-address">부산광역시 북구 화명대로 20</p>
+                    <p id="branch-phone">051-361-2133</p>
+
+                    <button>본부 보러가기</button>
+                </div>
+                <div class="branch-map">
+                    <img src="images/map_img.png" alt="지도" class="map-img">
+                    <div id="marker" class="marker">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="map_bg">
+        <img src="images/main_bg.png" alt="">
+    </div>
+
+<!-- section_content -->
+    <section class="contents">
+        <div class="content_inner">
+            <div class="content_title">
+                <h3>주요업무안내</h3>
+                <p>사람 중심의 주거서비스로 <br> 더 나은 삶, 더 나은 내일을 설계합니다.</p>
+            </div>
+            <div class="content_main">
+                <div class="content_btn_select">
+                    <ul>
+                        <li><a href="#none" data-target="welfare">주거복지사업</a></li>
+                        <li><a href="#none" data-target="rental">임대운영</a></li>
+                        <li><a href="#none" data-target="housing">주택관리</a></li>
+                        <li><a href="#none" data-target="residence">주거관리</a></li>
+                    </ul>
+                </div>
+                <div data-aos="fade-left">
+                    <div class="content_box1" id="">
+                        <div class="content_img">
+                            <img src="images/work_img1.png" alt="">
+                        </div>
+                        <div class="content_result">
+                            <h2>주거복지사업</h2>
+                            <p>독거노인 등 주거취약계층에게 필요한 서비스를 맞춤형으로 제공함으로 안전하고 쾌적한 주거환경 제공</p>
+                        </div>
+                        <div class="content_circle">
+                            <img src="images/work_img5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+<!-- section_bid -->
+    <section id="bid">
+        <div class="bid_inner">
+            <div class="bid_title">
+                <h2>입찰<br>소식</h2>
+                <img src="images/bid_img2.png" alt=""><br>
+                <a href="">더보기</a>
+            </div>
+            <div class="bid_box">
+                <div class="bid_box_title">
+                    <h3>예비입주자모집</h3>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#none">
+                            <span>(51㎡)원주태장4단지 국민임대주택 예비입주자 모집공고</span>
+                            <i class="ing">
+                                <img src="images/bid_img.png" alt="">
+                            </i>
+                            <span>2025-04-18</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none">
+                            <span>2025년 영구임대주택 예비입주자 모집 공고(천안쌍용1)</span>
+                            <i class="ing">
+                                <img src="images/bid_img.png" alt="">
+                            </i>
+                            <span>2025-04-18</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none">
+                            <span>전주삼천6단지 50년 공공임대주택 예비입주자 모집</span>
+                            <i class="ing">
+                                <img src="images/bid_img.png" alt="">
+                            </i>
+                            <span>2025-04-17</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none">
+                            <span>홍성남장2 국민임대 예비입주자 모집(51,59㎡)</span>
+                            <i class="ing">
+                                <img src="images/bid_img.png" alt="">
+                            </i>
+                            <span>2025-04-17</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none">
+                            <span>천안병천신한 국민임대주택 예비입주자 모집</span>
+                            <i class="ing">
+                                <img src="images/bid_img.png" alt="">
+                            </i>
+                            <span>2025-04-15</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none">
+                            <span>보령동대4 국민임대주택 예비입주자 모집공고</span>
+                            <i class="ing">
+                                <img src="images/bid_img.png" alt="">
+                            </i>
+                            <span>2025-04-15</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bid_box">
+                <div class="bid_box_title">
+                    <h3>임대상가 모집공고</h3>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#none">
+                            <span>여수문수 임대상가 입점자 모집</span>
+                            <i class="ing">
+                                <img src="images/bid_img.png" alt="">
+                            </i>
+                            <span>2025-04-17</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none">
+                            <span>서울가양 임대상가 입점자 모집공고(201호)</span>
+                            <i class="ing">
+                                <img src="images/bid_img.png" alt="">
+                            </i>
+                            <span>2025-04-16</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none">
+                            <span>서귀포동홍3 임대상가 입점자 모집 공고</span>
+                            <i class="ing">
+                                <img src="images/bid_img.png" alt="">
+                            </i>
+                            <span>2025-04-16</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none">
+                            <span>서울중계3단지 임대상가 입점자 모집공고</span>
+                            <i class="ing">
+                                <img src="images/bid_img.png" alt="">
+                            </i>
+                            <span>2025-04-16</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none">
+                            <span>제주아라 임대상가 입점자 모집공고(202호, 지하1001호)</span>
+                            <i class="ing">
+                                <img src="images/bid_img.png" alt="">
+                            </i>
+                            <span>2025-04-15</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none">
+                            <span>군산나운4 영구임대주택 예비입주자 모집 공고</span>
+                            <i class="ing">
+                                <img src="images/bid_img.png" alt="">
+                            </i>
+                            <span>2025-04-14</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+<!-- section_news -->
+    <section class="news">
+        <div class="news_inner">
+            <p><strong> 공지사항</strong>안내</p>
+            <div class="newsInner">
+                <div class="newsContainer">
+                    <h2>주택관리공단의 <br>새로운 소식을 <br>만나보세요.</h2>
+                    <div class="swiper-button-ne xt2"></div>
+                    <div class="swiper-button-prev2"></div>
+
+                    <div class="newsContainer_inner">
+                        <a href="#none">더보기</a>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </div>
+                </div>
+                <div #swiperRef="" class="swiper mySwiper">
+                    <div class="swiper-wrapper news-wrapper">
+                        <a class="swiper-slide news-slide">
+                            <span>공지사항</span>
+                            <img src="images/news_img1.png" alt="">
+                            <h3>[2024년 공공기관 고객만족도조사 관련 개인정보처리의 위탁사항 알림]</h3>
+                            <h6>2024-12-03</h6>
+                        </a>
+                        <a class="swiper-slide news-slide">
+                            <span>공지사항</span>
+                            <img src="images/news_img2.png" alt="">
+                            <h3>【2024년 입주민 해피콜 관련 개인정보 목적외 제3자 제공사항 알림】</h3>
+                            <h6>2024-12-03</h6>
+                        </a>
+                        <a class="swiper-slide news-slide">
+                            <span>공지사항</span>
+                            <img src="images/news_img3.png" alt="">
+                            <h3>공공기관 종합청렴도 평가 관련 개인정보 제3자 제공사항 알림</h3>
+                            <h6>2024-07-22</h6>
+                        </a>
+                        <a class="swiper-slide news-slide">
+                            <span>공지사항</span>
+                            <img src="images/news_img4.png" alt="">
+                            <h3>법률고문 위촉 결과 안내</h3>
+                            <h6>2024-07-18</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- section_esg -->
+    <section id="esg">
+        <div class="esg_inner">
+            <div class="esg_title">
+                <h5>주택관리공단</h5>
+                <h2>시람이 중심이 되는 <strong>ESG</strong>, <br>그것이 주택관리공단이 지향하는 지속가능한 경영 철학입니다.</h2>
+                <p>"주거 약자를 위한 복지부터 기후 위기에 대응하는 친환경 실천까지, 공단은 삶의 모든 공간을 책임집니다."</p>
+            </div>
+            <div class="esg_wrap">
+                <div class="esg_card">
+                    <img src="images/esg_img1.png" alt="">
+                    <div class="overlay"></div>
+                    <i class="fa-solid fa-up-right-from-square icon"></i>
+                    <span class="letter">E</span>
+                    <h3 class="title">윤리경영</h3>
+
+                </div>
+                <div class="esg_card">
+                    <img src="images/esg_img2.png" alt="">
+                    <div class="overlay"></div>
+                    <i class="fa-solid fa-up-right-from-square icon"></i>
+                    <span class="letter">S</span>
+                    <h3 class="title">인권경영</h3>
+                </div>
+                <div class="esg_card">
+                    <img src="images/esg_img3.png" alt="">
+                    <div class="overlay"></div>
+                    <i class="fa-solid fa-up-right-from-square icon"></i>
+                    <span class="letter">G</span>
+                    <h3 class="title">사회공헌</h3>
+                </div>
+                <div class="esg_card">
+                    <img src="images/esg_img4.png" alt="">
+                    <div class="overlay"></div>
+                    <i class="fa-solid fa-up-right-from-square icon"></i>
+                    <span class="letter">2023</span>
+                    <h3 class="title">동반성장</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- section_pitch -->
+    <section class="pitch">
+        <div class="pitch_inner">
+          <div class="pitch_title">
+            <h3>홍보안내</h3>
+            <p>더 나은 주거의 시작 <br> 주택관리공단과 함께하세요.</p>
+        </div>
+            <div class="pitch_wrap">
+            <div class="pitch_video_wrsp">
+                <iframe width="531" height="299" src="https://www.youtube.com/embed/eyRFHojlMU8" title="주택관리공단 홍보동영상" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+            </div>
+            <div class="popup2">
+                <a class="popup2_img1">
+                    <img src="images/popup_img1.png" alt="">
+                </a>
+                <a class="popup2_img2">
+                    <img src="images/popup_img2.png" alt="">
+                </a>
+            </div>
+            <div class="pitch_bg">
+              <img src="images/bgAni_img2.png" alt="">
+            </div>
+        </div>
+        </div>
+    </section>
+
+<!-- footer -->
+    <footer class="footer">
+        <div class="footer_inner">
+            <div class="footer_link">
+                <a href="#none">개인정보처리방침<i class="fa-solid fa-up-right-from-square icon"></i></a>
+                <a href="#none">영상정보처리기기 설치운영<i class="fa-solid fa-up-right-from-square icon"></i></a>
+                <a href="#none">이메일주소 무단수집거부<i class="fa-solid fa-up-right-from-square icon"></i></a>
+                <a href="#none">전현직 임직원 전용<i class="fa-solid fa-up-right-from-square icon"></i></a>
+            </div>
+            <div class="site">
+                <select name="" id="site_select" title="관련기관을 선택해주세요.">
+                    <option>관련 사이트</option>
+                    <option>국토교통부</option>
+                    <option>한국토지주택공사</option>
+                    <option>대한민국국회</option>
+                    <option>법제처</option>
+                    <option>보건복지부</option>
+                </select>
+            </div>
+            <div class="footer_main">
+                <div class="footer_logo">
+                    <img src="images/logo_fff.png" alt="">
+                </div>
+                <div class="footer_result">
+                    <p>경상남도 진주시 사들로 137 대표 : 허종길 <i></i> TEL : 1670-2727 <br> COPYRIGHT(C) KOREA HOREA HOUSING MANAGEMENT CO_LTD. <br>ALL RIGHTS RESERVED. MAIL TO WEVMASTER</p>
+                </div>
+                <div class="footer_number">
+                    <h3>1670-2727</h3>
+                    <p>상담시간 : 09:00 ~ 18:00 <br>(토, 일 공휴일 제외)</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+<!-- popup -->
+    <div id="back"></div>
+    <div id="popup">
+      <img src="images/main_popup.png" alt=""><br>
+      <button onclick="closePopup()">닫기</button>
+      </div>
+
+    <!-- swiper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- 지도 -->
+    <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+    <!-- AOS.js -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- custom.js -->
+    <script src="js/index.js"></script>
+</body>
+
+</html>
