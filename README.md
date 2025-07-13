@@ -62,6 +62,13 @@
 
 ---
 
+| Before (리뉴얼 전) | After (리뉴얼 후) |
+|--------------------|-------------------|
+| <img width="1895" height="966" alt="image" src="https://github.com/user-attachments/assets/63d5e5e3-bc3f-4629-818d-704e972c0747" />
+ | <img width="1920" height="7819" alt="image" src="https://github.com/user-attachments/assets/3a2ab9fb-a945-4fcc-8b1c-1af55cc097c8" />
+ |
+
+
 ## 1. 프로젝트 개요
 
 ### 1.1. 작업 배경
