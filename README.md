@@ -7,44 +7,15 @@
 ## 📅 프로젝트 개요
 
 * **프로젝트명:** 주택관리공단 웹사이트 리디자인
-* **작업 기간:** 
+* **작업 기간:** 2025.04.01-2025.04.30.
 
 ---
 
 ## ⏰ 프로젝트 일정
 
-* **기획:** 
-* **디자인:** 
-* **개발:** 
-
----
-
-## 📝 목차
-
-1.  프로젝트 개요
-    1.1. 작업 배경
-    1.2. 키워드
-2.  파일 구성
-3.  주요 기능 소개
-    3.1. 메인 페이지
-    3.2. 서브 페이지 (총 2개)
-4.  작업 환경
-5.  관련 링크
-
----
-
-## 📅 프로젝트 개요
-
-* **프로젝트명:** 주택관리공단 웹사이트 리디자인
-* **작업 기간:** 
-
----
-
-## ⏰ 프로젝트 일정
-
-* **기획:** 
-* **디자인:** 
-* **개발:** 
+* **기획:** 20시간
+* **디자인:** 30시간
+* **개발:** 60시간
 
 ---
 
@@ -64,9 +35,7 @@
 
 | Before (리뉴얼 전) | After (리뉴얼 후) |
 |--------------------|-------------------|
-| <img width="1895" height="966" alt="image" src="https://github.com/user-attachments/assets/63d5e5e3-bc3f-4629-818d-704e972c0747" />
- | <img width="1920" height="7819" alt="image" src="https://github.com/user-attachments/assets/3a2ab9fb-a945-4fcc-8b1c-1af55cc097c8" />
- |
+| <img width="1895" height="966" alt="image" src="https://github.com/user-attachments/assets/63d5e5e3-bc3f-4629-818d-704e972c0747" /> | <img width="1920" height="7819" alt="image" src="https://github.com/user-attachments/assets/3a2ab9fb-a945-4fcc-8b1c-1af55cc097c8" />|
 
 
 ## 1. 프로젝트 개요
